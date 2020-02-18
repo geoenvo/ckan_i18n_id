@@ -1308,7 +1308,7 @@ msgid ""
 "User \"%s\" is now registered but you are still logged in as \"%s\" from "
 "before"
 msgstr ""
-"Pengguna \"%s\" sekarang terdaftar tetapu anda masih masuk sebagai \"%s\""
+"Pengguna \"%s\" sekarang terdaftar tetapi Anda masih masuk sebagai \"%s\""
 " dari sebelumnya"
 
 #: ckan/controllers/user.py:294 ckan/views/user.py:174
