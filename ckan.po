@@ -39,7 +39,7 @@ msgstr "Kesalahan"
 
 #: ckanext/datapusher/helpers.py:29
 msgid "Not Uploaded Yet"
-msgstr "Belum diunggah"
+msgstr "Belum Diunggah"
 
 #: ckan/controllers/package.py:613 ckan/controllers/package.py:1076
 #: ckan/controllers/package.py:1096 ckan/controllers/package.py:1163
@@ -65,12 +65,12 @@ msgstr "Tidak diizinkan untuk melihat halaman ini"
 #: ckanext/datapusher/templates-bs2/datapusher/resource_data.html:12
 #: ckanext/datapusher/templates/datapusher/resource_data.html:12
 msgid "Upload to DataStore"
-msgstr "Diunggah ke kumpulan data"
+msgstr "Unggah ke DataStore"
 
 #: ckanext/datapusher/templates-bs2/datapusher/resource_data.html:19
 #: ckanext/datapusher/templates/datapusher/resource_data.html:19
 msgid "Upload error:"
-msgstr "Kesalahan dalam mengunggah"
+msgstr "Kesalahan dalam mengunggah:"
 
 #: ckanext/datapusher/templates-bs2/datapusher/resource_data.html:25
 #: ckanext/datapusher/templates-bs2/datapusher/resource_data.html:27
@@ -82,7 +82,7 @@ msgstr "Kesalahan:"
 #: ckanext/datapusher/templates-bs2/datapusher/resource_data.html:36
 #: ckanext/datapusher/templates/datapusher/resource_data.html:36
 msgid "Error traceback:"
-msgstr "Kesalahan traceback"
+msgstr "Traceback kesalahan:"
 
 #: ckanext/datapusher/templates-bs2/datapusher/resource_data.html:48
 #: ckanext/datapusher/templates/datapusher/resource_data.html:48
@@ -117,7 +117,7 @@ msgstr "Akhir dari log"
 #: ckanext/datapusher/templates-bs2/package/resource_edit_base.html:5
 #: ckanext/datapusher/templates/package/resource_edit_base.html:5
 msgid "DataStore"
-msgstr "Kumpulan data"
+msgstr "DataStore"
 
 #: ckanext/datastore/controller.py:53
 #, python-format
@@ -126,7 +126,7 @@ msgstr "Format: harus menjadi salah satu %s"
 
 #: ckanext/datastore/controller.py:65
 msgid "DataStore resource not found"
-msgstr "Sumber kumpulan data tidak ditemukan"
+msgstr "Sumberdaya DataStore tidak ditemukan"
 
 #: ckanext/datastore/controller.py:101
 msgid ""
@@ -143,21 +143,22 @@ msgstr ""
 #: ckanext/datastore/logic/action.py:258 ckanext/datastore/logic/action.py:286
 #: ckanext/datastore/logic/action.py:344 ckanext/datastore/logic/action.py:457
 msgid "Resource \"{0}\" was not found."
-msgstr "Data \"{0}\" tidak ditemukan"
+msgstr "Sumberdaya \"{0}\" tidak ditemukan"
 
 #: ckanext/datastore/logic/auth.py:19
 msgid "User {0} not authorized to update resource {1}"
-msgstr ""
+msgstr "Pengguna {0} tidak memiliki izin untuk memperbarui sumberdaya {1}"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:19
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:21
 msgid "CKAN Data API"
-msgstr ""
+msgstr "API Data CKAN"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:23
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:25
 msgid "Access resource data via a web API with powerful query support"
 msgstr ""
+"Akses sumberdaya data melalui API web dengan dukungan kueri yang kuat"
 
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:26
 msgid ""
@@ -170,7 +171,7 @@ msgstr ""
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:33
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:35
 msgid "Endpoints"
-msgstr ""
+msgstr "Titik akhir"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:37
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:39
@@ -187,7 +188,7 @@ msgstr "Buat"
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:46
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:48
 msgid "Update / Insert"
-msgstr ""
+msgstr "Perbarui / Tambah"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:50
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:52
@@ -197,27 +198,27 @@ msgstr "Kueri"
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:54
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:56
 msgid "Query (via SQL)"
-msgstr ""
+msgstr "Kueri (via SQL)"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:66
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:68
 msgid "Querying"
-msgstr ""
+msgstr "Sedang Mengkueri"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:70
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:72
 msgid "Query example (first 5 results)"
-msgstr ""
+msgstr "Contoh kueri (5 hasil pertama)"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:75
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:77
 msgid "Query example (results containing 'jones')"
-msgstr ""
+msgstr "Contoh kueri (hasil yang mengandung 'jone')"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:80
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:82
 msgid "Query example (via SQL statement)"
-msgstr ""
+msgstr "Contoh kueri (via statement SQL)"
 
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:91
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:93
@@ -232,7 +233,7 @@ msgstr ""
 #: ckanext/datastore/templates-bs2/ajax_snippets/api_info.html:116
 #: ckanext/datastore/templates/ajax_snippets/api_info.html:118
 msgid "Example: Python"
-msgstr ""
+msgstr "Contoh: Python"
 
 #: ckan/templates/group/member_new.html:60
 #: ckanext/datastore/templates-bs2/datastore/dictionary.html:26
@@ -243,7 +244,7 @@ msgstr "Simpan"
 #: ckanext/datastore/templates-bs2/datastore/dictionary.html:16
 #: ckanext/datastore/templates/datastore/snippets/dictionary_form.html:3
 msgid "Field {num}."
-msgstr ""
+msgstr "Kolom {num}."
 
 #: ckanext/datastore/templates/datastore/snippets/dictionary_form.html:12
 msgid "Type Override"
@@ -336,7 +337,7 @@ msgstr "Sembunyi/Tampilkan Kolom"
 
 #: ckanext/example_iconfigurer/templates/admin/config.html:11
 msgid "Datasets per page"
-msgstr "Kumpulan data per halaman"
+msgstr "Dataset per halaman"
 
 #: ckanext/example_iconfigurer/templates/admin/config.html:13
 msgid "Test conf"
@@ -359,7 +360,7 @@ msgstr "Relevansi"
 #: ckan/templates/snippets/sort_by.html:15
 #: ckanext/example_idatasetform/templates/package/search.html:13
 msgid "Name Ascending"
-msgstr ""
+msgstr "Nama Urutan Abjad Naik"
 
 #: ckan/templates/group/index.html:20 ckan/templates/group/read.html:15
 #: ckan/templates/organization/bulk_process.html:98
@@ -371,7 +372,7 @@ msgstr ""
 #: ckan/templates/snippets/sort_by.html:16
 #: ckanext/example_idatasetform/templates/package/search.html:14
 msgid "Name Descending"
-msgstr ""
+msgstr "Nama Urutan Abjad Menurun"
 
 #: ckan/templates/group/read.html:16
 #: ckan/templates/organization/bulk_process.html:99
@@ -433,14 +434,14 @@ msgstr "Grup ini belum memiliki deskripsi"
 #: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:22
 msgid "{num} Dataset"
 msgid_plural "{num} Datasets"
-msgstr[0] "{num} Kumpulan data"
+msgstr[0] "{num} Dataset"
 
 #: ckan/templates/group/snippets/group_item.html:34
 #: ckan/templates/organization/snippets/organization_item.html:33
 #: ckanext/example_theme_docs/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html:25
 #: ckanext/example_theme_docs/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:24
 msgid "0 Datasets"
-msgstr "0 Kumpulan data"
+msgstr "0 Dataset"
 
 #: ckanext/example_theme_docs/v12_extra_public_dir/templates/home/snippets/promoted.html:4
 msgid "CKAN's data previewing tool has many powerful features"
@@ -509,7 +510,7 @@ msgstr "Kesalahan dalam memuat pratayang"
 #: ckanext/reclineview/theme/public/recline_view.js:75
 #: ckanext/reclineview/theme/public/recline_view.min.js:5
 msgid "Could not load view"
-msgstr ""
+msgstr "Tidak dapat memuat pratayang"
 
 #: ckanext/reclineview/theme/public/recline_view.js:77
 #: ckanext/reclineview/theme/public/recline_view.min.js:5
@@ -590,7 +591,7 @@ msgstr ""
 
 #: ckanext/stats/templates/ckanext/stats/index.html:10
 msgid "Total number of Datasets"
-msgstr "Jumlah total Kumpulan data"
+msgstr "Jumlah total Dataset"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:17
 #: ckanext/stats/templates/ckanext/stats/index.html:40
@@ -599,25 +600,25 @@ msgstr "Tanggal"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:18
 msgid "Total datasets"
-msgstr "Jumlah total Kumpulan data"
+msgstr "Jumlah total Dataset"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:33
 #: ckanext/stats/templates/ckanext/stats/index.html:179
 msgid "Dataset Revisions per Week"
-msgstr "Revisi Kumpulan data per minggu"
+msgstr "Revisi Dataset per Minggu"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:41
 msgid "All dataset revisions"
-msgstr ""
+msgstr "Semua revisi dataset"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:42
 msgid "New datasets"
-msgstr ""
+msgstr "Dataset baru"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:58
 #: ckanext/stats/templates/ckanext/stats/index.html:180
 msgid "Top Rated Datasets"
-msgstr "Peringkat Tertinggi Kumpulan data"
+msgstr "Peringkat Tertinggi Dataset"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:64
 msgid "Average rating"
@@ -634,14 +635,14 @@ msgstr "Tidak ada peringkat"
 #: ckanext/stats/templates/ckanext/stats/index.html:84
 #: ckanext/stats/templates/ckanext/stats/index.html:181
 msgid "Most Edited Datasets"
-msgstr "Kumpulan Data Paling Sering Diedit"
+msgstr "Dataset Paling Sering Diedit"
 
 #: ckan/logic/converters.py:148 ckan/logic/validators.py:151
 #: ckan/logic/validators.py:193 ckan/templates/package/read_base.html:19
 #: ckan/tests/config/test_middleware.py:619
 #: ckanext/stats/templates/ckanext/stats/index.html:89
 msgid "Dataset"
-msgstr "Kumpulan data"
+msgstr "Dataset"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:90
 msgid "Number of edits"
@@ -663,7 +664,7 @@ msgstr "Grup"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:114
 msgid "Number of datasets"
-msgstr "Jumlah kumpulan data"
+msgstr "Jumlah dataset"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:127
 msgid "No groups"
@@ -702,7 +703,7 @@ msgstr ""
 
 #: ckanext/stats/templates/ckanext/stats/index.html:178
 msgid "Total Number of Datasets"
-msgstr ""
+msgstr "Jumlah Total Dataset"
 
 #: ckanext/textview/plugin.py:67 ckanext/textview/plugin.py:69
 msgid "Text"
@@ -741,7 +742,7 @@ msgstr "Editor"
 
 #: ckan/authz.py:227
 msgid "Member"
-msgstr ""
+msgstr "Anggota"
 
 #: ckan/controllers/admin.py:34 ckan/views/admin.py:76
 msgid "Need to be system administrator to administer"
@@ -749,7 +750,7 @@ msgstr "Harus menjadi administrator sistem untuk mengelola"
 
 #: ckan/controllers/admin.py:50 ckan/templates/admin/config.html:14
 msgid "Site Title"
-msgstr ""
+msgstr "Judul Situs"
 
 #: ckan/controllers/admin.py:51 ckan/templates/admin/config.html:16
 msgid "Style"
@@ -757,11 +758,11 @@ msgstr ""
 
 #: ckan/controllers/admin.py:52 ckan/templates/admin/config.html:18
 msgid "Site Tag Line"
-msgstr ""
+msgstr "Moto Situs"
 
 #: ckan/controllers/admin.py:53
 msgid "Site Tag Logo"
-msgstr ""
+msgstr "Tanda logo pada Situs"
 
 #: ckan/controllers/admin.py:55 ckan/templates/admin/config.html:25
 #: ckan/templates/group/about.html:3 ckan/templates/group/read_base.html:19
@@ -847,7 +848,7 @@ msgstr "Nama aksi tidak diketahui: %s"
 #: ckan/controllers/api.py:188 ckan/views/api.py:268
 #, python-format
 msgid "JSON Error: %s"
-msgstr "Masalah JSON: %s"
+msgstr "Kesalahan JSON: %s"
 
 #: ckan/controllers/api.py:194 ckan/views/api.py:274
 #, python-format
@@ -885,7 +886,7 @@ msgstr "Register tidak dikenal: %s"
 #: ckan/controllers/api.py:382
 #, python-format
 msgid "Malformed qjson value: %r"
-msgstr ""
+msgstr "Nilai qjson cacat: %r"
 
 #: ckan/controllers/api.py:392
 msgid "Request params must be in form of a json encoded dictionary."
@@ -972,11 +973,11 @@ msgstr "Pengguna %r tidak ada izin untuk mengedit %s"
 
 #: ckan/controllers/group.py:443
 msgid "Not authorized to perform bulk update"
-msgstr ""
+msgstr "Tidak diizinkan untuk melakukan pembaruan dalam jumlah banyak"
 
 #: ckan/controllers/group.py:461
 msgid "Unauthorized to create a group"
-msgstr "Tidak punya izin untuk membuat grup"
+msgstr "Tidak diizinkan izin untuk membuat grup"
 
 #: ckan/controllers/group.py:539 ckan/controllers/group.py:569
 #: ckan/controllers/package.py:944 ckan/controllers/package.py:992
@@ -994,7 +995,7 @@ msgstr "Pengguna %r tidak punya izin untuk mengedit otorisasi %s"
 #: ckan/controllers/group.py:615 ckan/controllers/group.py:630
 #, python-format
 msgid "Unauthorized to delete group %s"
-msgstr "Tidak punya izin untuk menghapus grup %s"
+msgstr "Tidak diizinkan untuk menghapus grup %s"
 
 #: ckan/controllers/group.py:621
 msgid "Organization has been deleted."
@@ -1017,17 +1018,17 @@ msgstr "Pengguna %r tidak punya izin untuk mengedit anggota dari %s"
 #: ckan/controllers/group.py:670
 #, python-format
 msgid "Unauthorized to create group %s members"
-msgstr "Tidak punya izin untuk membuat anggota grup %s"
+msgstr "Tidak diizinkan untuk membuat anggota grup %s"
 
 #: ckan/controllers/group.py:712
 #, python-format
 msgid "Unauthorized to add member to group %s"
-msgstr "Tidak punya izin untuk menambahkan anggota ke grup %s"
+msgstr "Tidak diizinkan untuk menambahkan anggota ke grup %s"
 
 #: ckan/controllers/group.py:731 ckan/controllers/group.py:744
 #, python-format
 msgid "Unauthorized to delete group %s members"
-msgstr "Tidak punya izin untuk menhapus anggota grup %s"
+msgstr "Tidak diizinkan untuk menhapus anggota grup %s"
 
 #: ckan/controllers/group.py:738
 msgid "Group member has been deleted."
@@ -1063,7 +1064,7 @@ msgstr "Anda sudah tidak mengikuti {0}"
 #: ckan/views/user.py:697
 #, python-format
 msgid "Unauthorized to view followers %s"
-msgstr ""
+msgstr "Tidak diizinkan untuk melihat pengikut %s"
 
 #: ckan/controllers/home.py:35
 msgid "This site is currently off-line. Database is not initialised."
@@ -1073,23 +1074,23 @@ msgstr "Situs ini sedang luring. Basisdata tidak diinisialisasikan."
 #, python-format
 msgid "Please <a href=\"%s\">update your profile</a> and add your email address. "
 msgstr ""
-"Silahkan <a href=\"%s\">perbarui profil anda</a> dan tambahkan alamat "
-"email anda. "
+"Silahkan <a href=\"%s\">perbarui profil Anda</a> dan tambahkan alamat "
+"email Anda. "
 
 #: ckan/controllers/home.py:75 ckan/views/home.py:60
 #, python-format
 msgid "%s uses your email address if you need to reset your password."
 msgstr ""
-"%s menggunakan alamat email anda jika anda memerlukan untuk menyetel "
-"ulang password anda."
+"%s menggunakan alamat email Anda jika Anda memerlukan untuk menyetel "
+"ulang password Anda."
 
 #: ckan/controllers/package.py:304
 msgid "Invalid search query: {error_message}"
-msgstr ""
+msgstr "Kueri pencarian cacat: {error_message}"
 
 #: ckan/controllers/package.py:323
 msgid "Parameter \"{parameter_name}\" is not an integer"
-msgstr ""
+msgstr "Parameter \"{parameter_name}\" bukan sebuah integer"
 
 #: ckan/controllers/package.py:343 ckan/controllers/package.py:351
 #: ckan/controllers/package.py:389 ckan/controllers/package.py:456
@@ -1101,7 +1102,7 @@ msgstr ""
 #: ckan/controllers/package.py:1415 ckan/controllers/package.py:1450
 #: ckan/controllers/package.py:1557
 msgid "Dataset not found"
-msgstr "Kumpulan data tidak ditemukan"
+msgstr "Dataset tidak ditemukan"
 
 #: ckan/controllers/package.py:377 ckan/controllers/package.py:379
 #: ckan/controllers/package.py:381
@@ -1111,51 +1112,51 @@ msgstr "Format revisi cacat: %r"
 
 #: ckan/controllers/package.py:415
 msgid "Viewing datasets of type \"{package_type}\" is not supported ({file_!r})."
-msgstr ""
+msgstr "Penayangan dataset dari tipe \"{package_type}\" tidak didukung ({file_!r})."
 
 #: ckan/controllers/package.py:454 ckan/controllers/package.py:839
 #: ckan/controllers/package.py:940 ckan/controllers/package.py:988
 #: ckan/controllers/package.py:1239
 #, python-format
 msgid "Unauthorized to read package %s"
-msgstr "Tidak punya izin untuk membaca paket %s"
+msgstr "Tidak diizinkan untuk membaca paket %s"
 
 #: ckan/controllers/package.py:463
 msgid "CKAN Dataset Revision History"
-msgstr "Riwayat Revisi Kumpulan Data CKAN"
+msgstr "Riwayat Revisi Dataset CKAN"
 
 #: ckan/controllers/package.py:466
 msgid "Recent changes to CKAN Dataset: "
-msgstr "Perubahan terbaru Kumpulan Data CKAN:"
+msgstr "Perubahan terbaru Dataset CKAN:"
 
 #: ckan/controllers/package.py:522
 msgid "Unauthorized to create a package"
-msgstr "Tidak punya izin untuk membuat paket"
+msgstr "Tidak diizinkan untuk membuat paket"
 
 #: ckan/controllers/package.py:598
 msgid "Unauthorized to edit this resource"
-msgstr ""
+msgstr "Tidak diizinkan untuk mengedit sumberdaya ini"
 
 #: ckan/controllers/package.py:666
 msgid "Unauthorized to update dataset"
-msgstr "Tidak punya izin untuk memperbarui kumpulan data"
+msgstr "Tidak diizinkan untuk memperbarui dataset"
 
 #: ckan/controllers/package.py:668 ckan/controllers/package.py:705
 #: ckan/controllers/package.py:731
 msgid "The dataset {id} could not be found."
-msgstr ""
+msgstr "Dataset {id} tidak dapat ditemukan."
 
 #: ckan/controllers/package.py:672
 msgid "You must add at least one data resource"
-msgstr ""
+msgstr "Anda harus menambahkan sedikitnya satu sumberdaya data"
 
 #: ckan/controllers/package.py:703
 msgid "Unauthorized to create a resource"
-msgstr ""
+msgstr "Tidak diizinkan untuk membuat sumberdaya"
 
 #: ckan/controllers/package.py:736
 msgid "Unauthorized to create a resource for this package"
-msgstr ""
+msgstr "Tidak diiznkan untuk membuat sumberdaya untuk paket ini"
 
 #: ckan/controllers/package.py:950
 msgid "Unable to add package to search index."
@@ -1167,21 +1168,21 @@ msgstr "Tidak dapat memperbarui indeks pencarian."
 
 #: ckan/controllers/package.py:1035
 msgid "Dataset has been deleted."
-msgstr "Kumpulan data telah dihapus."
+msgstr "Dataset telah dihapus."
 
 #: ckan/controllers/package.py:1040 ckan/controllers/package.py:1058
 #, python-format
 msgid "Unauthorized to delete package %s"
-msgstr "Tidak punya izin untuk menghapus paket %s"
+msgstr "Tidak diizinkan untuk menghapus paket %s"
 
 #: ckan/controllers/package.py:1063
 msgid "Resource has been deleted."
-msgstr ""
+msgstr "Sumberdaya telah dihapus."
 
 #: ckan/controllers/package.py:1074
 #, python-format
 msgid "Unauthorized to delete resource %s"
-msgstr ""
+msgstr "Tidak diizinkan untuk menghapus sumberdaya %s"
 
 #: ckan/controllers/package.py:1133 ckan/controllers/package.py:1576
 msgid "Resource view not found"
@@ -1189,7 +1190,7 @@ msgstr ""
 
 #: ckan/controllers/package.py:1172
 msgid "Resource data not found"
-msgstr ""
+msgstr "Data sumberdaya tidak ditemukan"
 
 #: ckan/controllers/package.py:1181
 msgid "No download is available"
@@ -1198,16 +1199,16 @@ msgstr "Tidak ada unduhan tersedia"
 #: ckan/controllers/package.py:1318
 #, python-format
 msgid "Unauthorized to read dataset %s"
-msgstr ""
+msgstr "Tidak diizinkan untuk membaca dataset %s"
 
 #: ckan/controllers/package.py:1426
 #, python-format
 msgid "Unauthorized to read resource %s"
-msgstr "Tidak ada izin untuk membaca sumberdaya %s"
+msgstr "Tidak diizinkan untuk membaca sumberdaya %s"
 
 #: ckan/controllers/package.py:1490
 msgid "Unauthorized to edit resource"
-msgstr ""
+msgstr "Tidak diizinkan untuk mengedit sumberdaya"
 
 #: ckan/controllers/package.py:1508
 msgid "View not found"
@@ -1227,7 +1228,7 @@ msgstr ""
 
 #: ckan/controllers/package.py:1608
 msgid "No preview has been defined."
-msgstr ""
+msgstr "Belum ada pratayang yang didefinisikan."
 
 #: ckan/controllers/revision.py:45
 msgid "CKAN Repository Revision History"
@@ -1240,7 +1241,7 @@ msgstr "Perubahan terbaru untuk repositori CKAN."
 #: ckan/controllers/revision.py:111
 #, python-format
 msgid "Datasets affected: %s.\n"
-msgstr "Kumpulan data yang dipengaruhi: %s.\n"
+msgstr "Dataset yang dipengaruhi: %s.\n"
 
 #: ckan/controllers/revision.py:191
 msgid "Revision updated"
@@ -1256,15 +1257,15 @@ msgstr "Tag tidak ditemukan"
 
 #: ckan/controllers/user.py:162 ckan/views/user.py:290
 msgid "Unauthorized to register as a user."
-msgstr "Tidak punya izin untuk mendaftar sebagai pengguna."
+msgstr "Tidak diizinkan untuk mendaftar sebagai pengguna."
 
 #: ckan/controllers/user.py:180
 msgid "Unauthorized to create a user"
-msgstr "Tidak punya izin untuk membuat pengguna"
+msgstr "Tidak diizinkan untuk membuat pengguna"
 
 #: ckan/controllers/user.py:211 ckan/views/user.py:426
 msgid "Unauthorized to delete user with id \"{user_id}\"."
-msgstr ""
+msgstr "Tidak diizinkan untuk menghapus pengguna dengan id \"{user_id}\"."
 
 #: ckan/controllers/user.py:225 ckan/controllers/user.py:288
 #: ckan/views/user.py:168 ckan/views/user.py:444
@@ -1277,7 +1278,7 @@ msgstr "Tidak ada pengguna dispesifikasikan"
 #: ckan/views/user.py:616
 #, python-format
 msgid "Unauthorized to edit user %s"
-msgstr "Tidak ada izin untuk mengedit pengguna %s"
+msgstr "Tidak diizinkan untuk mengedit pengguna %s"
 
 #: ckan/controllers/user.py:233 ckan/controllers/user.py:248
 #: ckan/controllers/user.py:315 ckan/controllers/user.py:378
@@ -1296,7 +1297,7 @@ msgstr "Profil diperbarui"
 #: ckan/controllers/user.py:246 ckan/views/user.py:313
 #, python-format
 msgid "Unauthorized to create user %s"
-msgstr "Tidak punya izin untuk membuat pengguna %s"
+msgstr "Tidak diizinkan untuk membuat pengguna %s"
 
 #: ckan/controllers/user.py:252 ckan/views/user.py:306
 msgid "Bad Captcha. Please try again."
@@ -1313,7 +1314,7 @@ msgstr ""
 
 #: ckan/controllers/user.py:294 ckan/views/user.py:174
 msgid "Unauthorized to edit a user."
-msgstr ""
+msgstr "Tidak diizinkan untuk mengedit pengguna."
 
 #: ckan/controllers/user.py:321 ckan/views/user.py:252
 #, python-format
@@ -1335,11 +1336,11 @@ msgstr "sandi salah"
 
 #: ckan/controllers/user.py:427 ckan/views/user.py:386
 msgid "Login failed. Bad username or password."
-msgstr "Gagal masuk. Username atau password tidak benar."
+msgstr "Gagal login. Username atau password tidak benar."
 
 #: ckan/controllers/user.py:460 ckan/views/user.py:504
 msgid "Unauthorized to request reset password."
-msgstr ""
+msgstr "Tidak diizinkan untuk meminta setel ulang sandi."
 
 #: ckan/controllers/user.py:489 ckan/views/user.py:530
 #, python-format
@@ -1350,11 +1351,11 @@ msgstr "\"%s\" cocok dengan beberapa pengguna"
 #: ckan/views/user.py:532 ckan/views/user.py:534
 #, python-format
 msgid "No such user: %s"
-msgstr "Bukan semacam pengguna: %s"
+msgstr "Tidak ada pengguna: %s"
 
 #: ckan/controllers/user.py:498 ckan/views/user.py:542
 msgid "Please check your inbox for a reset code."
-msgstr "Silahkan periksa inbox anda untuk kode setel ulang."
+msgstr "Silahkan periksa inbox Anda untuk kode setel ulang."
 
 #: ckan/controllers/user.py:502 ckan/views/user.py:546
 #, python-format
@@ -1363,7 +1364,7 @@ msgstr "Tidak dapat mengirimkan tautan setel ulang: %s"
 
 #: ckan/controllers/user.py:515 ckan/views/user.py:568
 msgid "Unauthorized to reset password."
-msgstr "Tidak punya izin untuk setel ulang sandi."
+msgstr "Tidak diizinkan untuk setel ulang sandi."
 
 #: ckan/controllers/user.py:527 ckan/views/user.py:577
 msgid "Invalid reset key. Please try again."
@@ -1371,15 +1372,15 @@ msgstr "Kunci setel ulang cacat. Silahkan coba lagi."
 
 #: ckan/controllers/user.py:544 ckan/views/user.py:613
 msgid "Your password has been reset."
-msgstr "Password anda sudah disetel ulang."
+msgstr "Password Anda sudah disetel ulang."
 
 #: ckan/controllers/user.py:566
 msgid "Your password must be 4 characters or longer."
-msgstr "Password anda harus sedikitnya 4 karakter atau lebih."
+msgstr "Password Anda harus sedikitnya 4 karakter atau lebih."
 
 #: ckan/controllers/user.py:569 ckan/views/user.py:592
 msgid "The passwords you entered do not match."
-msgstr "Password yang anda masukkan tidak cocok."
+msgstr "Password yang Anda masukkan tidak cocok."
 
 #: ckan/controllers/user.py:572 ckan/views/user.py:595
 msgid "You must provide a password"
@@ -1391,11 +1392,11 @@ msgstr ""
 
 #: ckan/controllers/user.py:644 ckan/views/dashboard.py:62
 msgid "{0} not found"
-msgstr ""
+msgstr "{0} tidak ditemukan"
 
 #: ckan/controllers/user.py:658 ckan/views/dashboard.py:76
 msgid "Everything"
-msgstr ""
+msgstr "Semua"
 
 #: ckan/controllers/util.py:18 ckan/logic/action/__init__.py:62
 msgid "Missing Value"
@@ -1403,11 +1404,11 @@ msgstr "Nilai Hilang"
 
 #: ckan/controllers/util.py:23
 msgid "Redirecting to external site is not allowed."
-msgstr ""
+msgstr "Tidak diizinkan untuk melakukan redirect ke situs eksternal."
 
 #: ckan/lib/activity_streams.py:60
 msgid "{actor} added the tag {tag} to the dataset {dataset}"
-msgstr "{actor} menambahkan tag {tag} pada kumpulan data {dataset}"
+msgstr "{actor} menambahkan tag {tag} pada dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:63
 msgid "{actor} updated the group {group}"
@@ -1419,15 +1420,15 @@ msgstr "{actor} memperbarui organisasi {organization}"
 
 #: ckan/lib/activity_streams.py:69
 msgid "{actor} updated the dataset {dataset}"
-msgstr "{actor} memperbarui kumpulan data {dataset}"
+msgstr "{actor} memperbarui dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:72
 msgid "{actor} changed the extra {extra} of the dataset {dataset}"
-msgstr "{actor} mengubah ekstra {extra} dari kumpulan data {dataset}"
+msgstr "{actor} mengubah ekstra {extra} dari dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:75
 msgid "{actor} updated the resource {resource} in the dataset {dataset}"
-msgstr ""
+msgstr "{actor} memperbarui sumberdaya {resource} dalam dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:78
 msgid "{actor} updated their profile"
@@ -1443,15 +1444,15 @@ msgstr "{actor} menghapus organisasi {organization}"
 
 #: ckan/lib/activity_streams.py:87
 msgid "{actor} deleted the dataset {dataset}"
-msgstr "{actor} menghapus kumpulan data {dataset}"
+msgstr "{actor} menghapus dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:90
 msgid "{actor} deleted the extra {extra} from the dataset {dataset}"
-msgstr ""
+msgstr "{actor} menghapus ekstra {extra} dari dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:93
 msgid "{actor} deleted the resource {resource} from the dataset {dataset}"
-msgstr ""
+msgstr "{actor} menghapus sumberdaya {resource} dari dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:97
 msgid "{actor} created the group {group}"
@@ -1463,15 +1464,15 @@ msgstr "{actor} membuat organisasi {organization}"
 
 #: ckan/lib/activity_streams.py:103
 msgid "{actor} created the dataset {dataset}"
-msgstr "{actor} membuat kumpulan data {dataset}"
+msgstr "{actor} membuat dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:106
 msgid "{actor} added the extra {extra} to the dataset {dataset}"
-msgstr "{actor} menambahkan ekstra {extra} ke kumpulan data {dataset}"
+msgstr "{actor} menambahkan ekstra {extra} ke dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:109
 msgid "{actor} added the resource {resource} to the dataset {dataset}"
-msgstr ""
+msgstr "{actor} menambahkan sumberdaya {resource} ke dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:112
 msgid "{actor} signed up"
@@ -1479,7 +1480,7 @@ msgstr "{actor} mendaftar"
 
 #: ckan/lib/activity_streams.py:115
 msgid "{actor} removed the tag {tag} from the dataset {dataset}"
-msgstr ""
+msgstr "{actor} melepaskan tag {tag} dari dataset {dataset}"
 
 #: ckan/lib/activity_streams.py:118
 msgid "{actor} started following {dataset}"
@@ -1503,19 +1504,19 @@ msgstr "Lihat"
 #: ckan/lib/email_notifications.py:103
 msgid "{n} new activity from {site_title}"
 msgid_plural "{n} new activities from {site_title}"
-msgstr[0] ""
+msgstr[0] "{n} aktivitas baru dari {site_title}"
 
 #: ckan/lib/formatters.py:19
 msgid "January"
-msgstr ""
+msgstr "Januari"
 
 #: ckan/lib/formatters.py:23
 msgid "February"
-msgstr ""
+msgstr "Februari"
 
 #: ckan/lib/formatters.py:27
 msgid "March"
-msgstr ""
+msgstr "Maret"
 
 #: ckan/lib/formatters.py:31
 msgid "April"
@@ -1523,19 +1524,19 @@ msgstr ""
 
 #: ckan/lib/formatters.py:35
 msgid "May"
-msgstr ""
+msgstr "Mei"
 
 #: ckan/lib/formatters.py:39
 msgid "June"
-msgstr ""
+msgstr "Juni"
 
 #: ckan/lib/formatters.py:43
 msgid "July"
-msgstr ""
+msgstr "Juli"
 
 #: ckan/lib/formatters.py:47
 msgid "August"
-msgstr ""
+msgstr "Agustus"
 
 #: ckan/lib/formatters.py:51
 msgid "September"
@@ -1543,7 +1544,7 @@ msgstr ""
 
 #: ckan/lib/formatters.py:55
 msgid "October"
-msgstr ""
+msgstr "Oktober"
 
 #: ckan/lib/formatters.py:59
 msgid "November"
@@ -1551,7 +1552,7 @@ msgstr ""
 
 #: ckan/lib/formatters.py:63
 msgid "December"
-msgstr ""
+msgstr "Desember"
 
 #: ckan/lib/formatters.py:114
 msgid "Just now"
@@ -1565,22 +1566,22 @@ msgstr[0] ""
 #: ckan/lib/formatters.py:119
 msgid "{hours} hour ago"
 msgid_plural "{hours} hours ago"
-msgstr[0] ""
+msgstr[0] "{hours} jam yang lalu"
 
 #: ckan/lib/formatters.py:125
 msgid "{days} day ago"
 msgid_plural "{days} days ago"
-msgstr[0] ""
+msgstr[0] "{days} hari yang lalu"
 
 #: ckan/lib/formatters.py:128
 msgid "{months} month ago"
 msgid_plural "{months} months ago"
-msgstr[0] ""
+msgstr[0] "{months} bulan yang lalu"
 
 #: ckan/lib/formatters.py:130
 msgid "over {years} year ago"
 msgid_plural "over {years} years ago"
-msgstr[0] ""
+msgstr[0] "lebih dari {years} yang lalu"
 
 #: ckan/lib/formatters.py:146
 msgid "{month} {day}, {year}, {hour:02}:{min:02} ({timezone})"
@@ -1648,7 +1649,7 @@ msgstr ""
 
 #: ckan/lib/helpers.py:1251
 msgid "Update your avatar at gravatar.com"
-msgstr "Perbarui avatar anda di gravatar.com"
+msgstr "Perbarui avatar Anda di gravatar.com"
 
 #: ckan/lib/helpers.py:1523 ckan/lib/helpers.py:1536
 msgid "Unknown"
@@ -1656,11 +1657,11 @@ msgstr "Tidak dikenal"
 
 #: ckan/lib/helpers.py:1587
 msgid "Unnamed resource"
-msgstr ""
+msgstr "Sumberdaya tidak bernama"
 
 #: ckan/lib/helpers.py:1627
 msgid "Created new dataset."
-msgstr "Kumpulan data baru yang dibuat."
+msgstr "Dataset baru dibuat."
 
 #: ckan/lib/helpers.py:1629
 msgid "Edited resources."
@@ -1776,7 +1777,7 @@ msgstr "Tidak diperkenankan ada tautan dalam log_message."
 
 #: ckan/logic/validators.py:161
 msgid "Dataset id already exists"
-msgstr ""
+msgstr "Id dataset sudah ada"
 
 #: ckan/logic/validators.py:202
 msgid "Resource"
@@ -1801,7 +1802,7 @@ msgstr "Nama tersebut tidak dapat digunakan"
 #: ckan/logic/validators.py:340
 #, python-format
 msgid "Must be at least %s characters long"
-msgstr ""
+msgstr "Harus memiliki panjang minimal %s karakter"
 
 #: ckan/logic/validators.py:342 ckan/logic/validators.py:631
 #, python-format
@@ -1872,7 +1873,7 @@ msgstr "Nama login tersebut tidak tersedia."
 
 #: ckan/logic/validators.py:566
 msgid "That login name can not be modified."
-msgstr ""
+msgstr "Nama login tersebut tidak dapat dirubah."
 
 #: ckan/logic/validators.py:577
 msgid "Please enter both passwords"
@@ -1888,15 +1889,15 @@ msgstr ""
 
 #: ckan/logic/validators.py:598
 msgid "The passwords you entered do not match"
-msgstr "Password yang anda masukkan tidak cocok"
+msgstr "Password yang Anda masukkan tidak cocok"
 
 #: ckan/logic/validators.py:619
 msgid ""
 "Edit not allowed as it looks like spam. Please avoid links in your "
 "description."
 msgstr ""
-"Pengeditan tidak diperkenankan karena mirip spam. Silahkan abaikan tautan"
-" pada deskripsi anda."
+"Pengeditan tidak diperkenankan karena mirip spam. Mohon hindari penggunaan tautan"
+" pada deskripsi Anda."
 
 #: ckan/logic/validators.py:628
 #, python-format
@@ -2012,7 +2013,7 @@ msgstr "Peringkat harus antara %i dan %i."
 
 #: ckan/logic/action/create.py:1078
 msgid "Error sending the invite email, the user was not created: {0}"
-msgstr ""
+msgstr "Terjadi kesalahan dalam pengiriman email undangan, pengguna tersebut tidak dibuat: {0}"
 
 #: ckan/logic/action/create.py:1254 ckan/logic/action/create.py:1261
 msgid "You must be logged in to follow users"
@@ -2020,7 +2021,7 @@ msgstr ""
 
 #: ckan/logic/action/create.py:1274
 msgid "You cannot follow yourself"
-msgstr "Anda tidak dapat mengikuti diri anda sendiri"
+msgstr "Anda tidak dapat mengikuti diri Anda sendiri"
 
 #: ckan/logic/action/create.py:1282 ckan/logic/action/create.py:1339
 #: ckan/logic/action/create.py:1478
@@ -2033,7 +2034,7 @@ msgstr ""
 
 #: ckan/logic/action/create.py:1379
 msgid "User {username} does not exist."
-msgstr ""
+msgstr "Pengguna {username} tidak ditemukan."
 
 #: ckan/logic/action/create.py:1454 ckan/logic/action/create.py:1462
 msgid "You must be logged in to follow a group."
@@ -2139,7 +2140,7 @@ msgstr "Pengguna %s tidak punya izin untuk mengedit grup ini"
 #: ckan/logic/auth/create.py:38
 #, python-format
 msgid "User %s not authorized to add dataset to this organization"
-msgstr "Pengguna %s tidak punya izin untuk menambahkan kumpulan data ke organisasi ini"
+msgstr "Pengguna %s tidak punya izin untuk menambahkan dataset ke organisasi ini"
 
 #: ckan/logic/auth/create.py:61
 msgid "No dataset id provided, cannot check auth."
@@ -2197,7 +2198,7 @@ msgstr "Pengguna %s tidak punya izin untuk mengedit grup %s"
 #: ckan/logic/auth/delete.py:40
 #, python-format
 msgid "User %s not authorized to delete resource %s"
-msgstr ""
+msgstr "Pengguna %s tidak punya izin untuk menghapus sumberdaya %s"
 
 #: ckan/logic/auth/delete.py:56
 msgid "Resource view not found, cannot check auth."
@@ -2221,7 +2222,7 @@ msgstr "Pengguna %s tidak punya izin untuk menghapus grup %s"
 #: ckan/logic/auth/delete.py:103
 #, python-format
 msgid "User %s not authorized to delete organizations"
-msgstr ""
+msgstr "Pengguna %s tidak punya izin untuk menghapus organisasi"
 
 #: ckan/logic/auth/delete.py:107
 #, python-format
@@ -2269,7 +2270,7 @@ msgstr "Pengguna %s tidak punya izin untuk mengedit paket %s"
 #: ckan/logic/auth/update.py:71
 #, python-format
 msgid "User %s not authorized to edit resource %s"
-msgstr ""
+msgstr "Pengguna %s tidak punya izin untuk mengedit sumberdaya %s"
 
 #: ckan/logic/auth/update.py:100
 #, python-format
@@ -2302,7 +2303,7 @@ msgstr "Pengguna %s tidak punya izin untuk mengedit pengguna %s"
 
 #: ckan/logic/auth/update.py:209
 msgid "User {0} not authorized to update user {1}"
-msgstr ""
+msgstr "Pengguna {0} tidak punya izin untuk memperbarui pengguna {1}"
 
 #: ckan/logic/auth/update.py:217
 #, python-format
@@ -2321,7 +2322,7 @@ msgstr "Pengguna %s tidak punya izin untuk memperbarui tabel term_translation"
 
 #: ckan/model/license.py:223
 msgid "License not specified"
-msgstr ""
+msgstr "Lisensi tidak dispesifikasikan"
 
 #: ckan/model/license.py:233
 msgid "Open Data Commons Public Domain Dedication and License (PDDL)"
@@ -2437,12 +2438,12 @@ msgstr ""
 #: ckan/public-bs2/base/javascript/modules/autocomplete.js:195
 #: ckan/public/base/javascript/modules/autocomplete.js:195
 msgid "Start typing…"
-msgstr ""
+msgstr "Mulai ketik…"
 
 #: ckan/public-bs2/base/javascript/modules/autocomplete.js:195
 #: ckan/public/base/javascript/modules/autocomplete.js:195
 msgid "No matches found"
-msgstr ""
+msgstr "Tidak ditemukan kecocokan"
 
 #: ckan/public-bs2/base/javascript/modules/autocomplete.js:204
 #: ckan/public/base/javascript/modules/autocomplete.js:204
@@ -2471,7 +2472,7 @@ msgstr ""
 #: ckan/templates/user/new_user_form.html:9
 #: ckan/templates/user/perform_reset.html:26
 msgid "Confirm"
-msgstr ""
+msgstr "Konfirmasi"
 
 #: ckan/public-bs2/base/javascript/modules/confirm-action.js:103
 #: ckan/public-bs2/base/javascript/modules/resource-reorder.js:59
@@ -2522,12 +2523,12 @@ msgstr "Unggah"
 #: ckan/templates/macros/form.html:241
 #: ckan/templates/snippets/search_form.html:69
 msgid "Remove"
-msgstr ""
+msgstr "Hapus"
 
 #: ckan/public-bs2/base/javascript/modules/image-upload.js:87
 #: ckan/public/base/javascript/modules/image-upload.js:87
 msgid "Upload a file on your computer"
-msgstr ""
+msgstr "Unggah sebuah file pada komputer Anda"
 
 #: ckan/public-bs2/base/javascript/modules/image-upload.js:110
 #: ckan/public-bs2/base/javascript/modules/image-upload.js:178
@@ -2554,14 +2555,14 @@ msgstr ""
 #: ckan/public/base/javascript/modules/resource-reorder.js:56
 #: ckan/public/base/javascript/modules/resource-view-reorder.js:50
 msgid "Save order"
-msgstr ""
+msgstr "Simpan urutan"
 
 #: ckan/public-bs2/base/javascript/modules/resource-reorder.js:69
 #: ckan/public-bs2/base/javascript/modules/resource-view-reorder.js:59
 #: ckan/public/base/javascript/modules/resource-reorder.js:69
 #: ckan/public/base/javascript/modules/resource-view-reorder.js:59
 msgid "Saving..."
-msgstr ""
+msgstr "Menyimpan..."
 
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:57
 #: ckan/public/base/javascript/modules/resource-upload-field.js:57
@@ -2571,12 +2572,12 @@ msgstr "Unggah file"
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:144
 #: ckan/public/base/javascript/modules/resource-upload-field.js:144
 msgid "An Error Occurred"
-msgstr ""
+msgstr "Terjadi Kesalahan"
 
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:201
 #: ckan/public/base/javascript/modules/resource-upload-field.js:201
 msgid "Unable to upload file"
-msgstr ""
+msgstr "Tidak dapat mengunggah file"
 
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:252
 #: ckan/public/base/javascript/modules/resource-upload-field.js:252
@@ -2586,12 +2587,12 @@ msgstr ""
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:260
 #: ckan/public/base/javascript/modules/resource-upload-field.js:260
 msgid "Resource uploaded"
-msgstr ""
+msgstr "Sumberdaya telah diunggah"
 
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:266
 #: ckan/public/base/javascript/modules/resource-upload-field.js:266
 msgid "Unable to get data for uploaded file"
-msgstr ""
+msgstr "Tidak dapat mengambil data untuk file yang diunggah"
 
 #: ckan/public-bs2/base/javascript/modules/resource-upload-field.js:272
 #: ckan/public/base/javascript/modules/resource-upload-field.js:272
@@ -2628,7 +2629,7 @@ msgstr "Edit"
 #: ckan/public-bs2/base/javascript/modules/table-toggle-more.js:25
 #: ckan/public/base/javascript/modules/table-toggle-more.js:25
 msgid "Show more"
-msgstr ""
+msgstr "Tampilkan lebih banyak"
 
 #: ckan/public-bs2/base/javascript/modules/table-toggle-more.js:26
 #: ckan/public/base/javascript/modules/table-toggle-more.js:26
@@ -2652,7 +2653,7 @@ msgstr ""
 #: ckan/public/base/test/spec/i18n.spec.js:54
 msgid "no translation"
 msgid_plural "no translations"
-msgstr[0] ""
+msgstr[0] "Tidak ada terjemahan"
 
 #: ckan/public-bs2/base/test/spec/i18n.spec.js:22
 #: ckan/public/base/test/spec/i18n.spec.js:22
@@ -2729,7 +2730,7 @@ msgstr ""
 
 #: ckan/templates/footer.html:9
 msgid "About {0}"
-msgstr ""
+msgstr "Tentang {0}"
 
 #: ckan/templates/footer.html:15
 msgid "CKAN API"
@@ -2747,11 +2748,11 @@ msgstr ""
 
 #: ckan/templates/header.html:9
 msgid "Sysadmin settings"
-msgstr ""
+msgstr "Setelan sysadmin"
 
 #: ckan/templates/header.html:16
 msgid "View profile"
-msgstr ""
+msgstr "Lihat profil"
 
 #: ckan/templates/header.html:23
 #, python-format
@@ -2765,15 +2766,15 @@ msgstr "Dasbor"
 
 #: ckan/templates/header.html:33 ckan/templates/user/dashboard.html:16
 msgid "Edit settings"
-msgstr ""
+msgstr "Edit setelan"
 
 #: ckan/templates/header.html:35
 msgid "Settings"
-msgstr ""
+msgstr "Setelan"
 
 #: ckan/templates/header.html:40 ckan/templates/header.html:42
 msgid "Log out"
-msgstr "Keluar"
+msgstr ""
 
 #: ckan/templates/header.html:52 ckan/templates/user/logout_first.html:14
 msgid "Log in"
@@ -2798,11 +2799,11 @@ msgstr "Daftar"
 #: ckan/templates/user/read.html:11 ckan/templates/user/read_base.html:19
 #: ckan/templates/user/read_base.html:53
 msgid "Datasets"
-msgstr "Kumpulan data"
+msgstr "Dataset"
 
 #: ckan/templates/header.html:94
 msgid "Search Datasets"
-msgstr "Cari Kumpulan Data"
+msgstr "Cari Dataset"
 
 #: ckan/templates/header.html:95 ckan/templates/home/snippets/search.html:11
 #: ckan/templates/snippets/simple_search.html:5
@@ -2812,15 +2813,15 @@ msgstr "Cari"
 
 #: ckan/templates/page.html:6
 msgid "Skip to content"
-msgstr ""
+msgstr "Langsung ke konten"
 
 #: ckan/templates/activity_streams/activity_stream_items.html:9
 msgid "Load less"
-msgstr ""
+msgstr "Muat lebih sedikit"
 
 #: ckan/templates/activity_streams/activity_stream_items.html:17
 msgid "Load more"
-msgstr ""
+msgstr "Muat lebih banyak"
 
 #: ckan/templates/activity_streams/activity_stream_items.html:23
 msgid "No activities are within this activity stream"
@@ -2887,7 +2888,7 @@ msgstr ""
 #: ckan/templates/admin/confirm_reset.html:3
 #: ckan/templates/admin/confirm_reset.html:10
 msgid "Confirm Reset"
-msgstr ""
+msgstr "Konfirmasikan Setel Ulang"
 
 #: ckan/templates/admin/index.html:15
 msgid "Administer CKAN"
@@ -2918,20 +2919,20 @@ msgstr ""
 #: ckan/templates/package/resource_read.html:133
 #: ckan/templates/package/snippets/resource_view.html:34
 msgid "Click here for more information."
-msgstr ""
+msgstr "Klik di sini untuk informasi lebih lengkap."
 
 #: ckan/templates/dataviewer/snippets/data_preview.html:18
 #: ckan/templates/package/snippets/resource_view.html:41
 msgid "Download resource"
-msgstr ""
+msgstr "Unduh sumberdaya"
 
 #: ckan/templates/dataviewer/snippets/no_preview.html:3
 msgid "No preview available."
-msgstr ""
+msgstr "Pratayang tidak tersedia."
 
 #: ckan/templates/dataviewer/snippets/no_preview.html:5
 msgid "More details..."
-msgstr ""
+msgstr "Detail lebih lengkap..."
 
 #: ckan/templates/dataviewer/snippets/no_preview.html:12
 #, python-format
@@ -3013,7 +3014,7 @@ msgstr ""
 #: ckan/templates/user/activity_stream.html:6
 #: ckan/templates/user/read_base.html:20
 msgid "Activity Stream"
-msgstr ""
+msgstr "Arus Aktivitas"
 
 #: ckan/templates/group/admins.html:3 ckan/templates/group/admins.html:6
 #: ckan/templates/organization/admins.html:3
@@ -3042,16 +3043,16 @@ msgstr ""
 #: ckan/templates/package/confirm_delete_resource.html:3
 #: ckan/templates/package/confirm_delete_resource.html:15
 msgid "Confirm Delete"
-msgstr ""
+msgstr "Konfirmasi Menghapus"
 
 #: ckan/templates/group/confirm_delete.html:11
 msgid "Are you sure you want to delete group - {name}?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus grup - {name}?"
 
 #: ckan/templates/group/confirm_delete_member.html:11
 #: ckan/templates/organization/confirm_delete_member.html:11
 msgid "Are you sure you want to delete member - {name}?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus anggota - {name}"
 
 #: ckan/templates/group/edit.html:7 ckan/templates/group/edit_base.html:3
 #: ckan/templates/group/edit_base.html:11
@@ -3062,7 +3063,7 @@ msgstr ""
 #: ckan/templates/package/resource_read.html:31 ckan/templates/user/edit.html:8
 #: ckan/templates/user/edit_base.html:3 ckan/templates/user/read_base.html:14
 msgid "Manage"
-msgstr ""
+msgstr "Kelola"
 
 #: ckan/templates/group/edit.html:12
 msgid "Edit Group"
@@ -3090,7 +3091,7 @@ msgstr "Cari grup..."
 
 #: ckan/templates/group/index.html:29
 msgid "There are currently no groups for this site"
-msgstr ""
+msgstr "Saat ini tidak terdapat grup untuk situs ini"
 
 #: ckan/templates/group/index.html:31 ckan/templates/organization/index.html:31
 msgid "How about creating one?"
@@ -3099,13 +3100,13 @@ msgstr ""
 #: ckan/templates/group/member_new.html:8
 #: ckan/templates/organization/member_new.html:10
 msgid "Back to all members"
-msgstr ""
+msgstr "Kembali ke daftar anggota"
 
 #: ckan/templates/group/member_new.html:10
 #: ckan/templates/organization/member_new.html:7
 #: ckan/templates/organization/member_new.html:12
 msgid "Edit Member"
-msgstr ""
+msgstr "Edit Anggota"
 
 #: ckan/templates/group/member_new.html:10
 #: ckan/templates/group/member_new.html:64 ckan/templates/group/members.html:6
@@ -3114,17 +3115,17 @@ msgstr ""
 #: ckan/templates/organization/member_new.html:63
 #: ckan/templates/organization/members.html:8
 msgid "Add Member"
-msgstr ""
+msgstr "Tambah Anggota"
 
 #: ckan/templates/group/member_new.html:18
 #: ckan/templates/organization/member_new.html:19
 msgid "Existing User"
-msgstr ""
+msgstr "Pengguna Yang Sudah Ada"
 
 #: ckan/templates/group/member_new.html:21
 #: ckan/templates/organization/member_new.html:22
 msgid "If you wish to add an existing user, search for their username below."
-msgstr ""
+msgstr "Jika Anda ingin menambahkan pengguna yang sudah ada, carilah username mereka di bawah ini."
 
 #: ckan/templates/group/member_new.html:38
 #: ckan/templates/organization/member_new.html:39
@@ -3134,12 +3135,12 @@ msgstr ""
 #: ckan/templates/group/member_new.html:42
 #: ckan/templates/organization/member_new.html:43
 msgid "New User"
-msgstr ""
+msgstr "Pengguna Baru"
 
 #: ckan/templates/group/member_new.html:45
 #: ckan/templates/organization/member_new.html:46
 msgid "If you wish to invite a new user, enter their email address."
-msgstr ""
+msgstr "Jika Anda ingin mengundang pengguna baru, masukkan alamat email mereka."
 
 #: ckan/templates/group/member_new.html:55 ckan/templates/group/members.html:15
 #: ckan/templates/organization/member_new.html:54
@@ -3151,7 +3152,7 @@ msgstr ""
 #: ckan/templates/organization/member_new.html:57
 #: ckan/templates/organization/members.html:36
 msgid "Are you sure you want to delete this member?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus anggota ini?"
 
 #: ckan/templates/group/member_new.html:58 ckan/templates/group/members.html:31
 #: ckan/templates/group/snippets/group_form.html:38
@@ -3195,16 +3196,16 @@ msgstr "Buat Grup"
 #: ckan/templates/group/read.html:19 ckan/templates/organization/read.html:25
 #: ckan/templates/snippets/search_form.html:3
 msgid "Search datasets..."
-msgstr ""
+msgstr "Cari dataset..."
 
 #: ckan/templates/group/snippets/feeds.html:3
 msgid "Datasets in group: {group}"
-msgstr ""
+msgstr "Dataset di grup: {group}"
 
 #: ckan/templates/group/snippets/feeds.html:4
 #: ckan/templates/organization/snippets/feeds.html:4
 msgid "Recent Revision History"
-msgstr ""
+msgstr "Riwayat Revisi Terbaru"
 
 #: ckan/templates/group/snippets/group_form.html:10
 #: ckan/templates/organization/snippets/organization_form.html:10
@@ -3214,19 +3215,19 @@ msgstr "Nama"
 
 #: ckan/templates/group/snippets/group_form.html:10
 msgid "My Group"
-msgstr ""
+msgstr "Grup Saya"
 
 #: ckan/templates/group/snippets/group_form.html:18
 msgid "my-group"
-msgstr ""
+msgstr "grup-saya"
 
 #: ckan/templates/group/snippets/group_form.html:20
 msgid "A little information about my group..."
-msgstr ""
+msgstr "Informasi tentang grup saya..."
 
 #: ckan/templates/group/snippets/group_form.html:38
 msgid "Are you sure you want to delete this Group?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus Grup ini?"
 
 #: ckan/templates/group/snippets/group_form.html:41
 msgid "Save Group"
@@ -3239,7 +3240,7 @@ msgstr ""
 
 #: ckan/templates/group/snippets/group_item.html:43
 msgid "Remove dataset from this group"
-msgstr ""
+msgstr "Hapus dataset dari grup ini"
 
 #: ckan/templates/group/snippets/helper.html:4
 msgid "What are Groups?"
@@ -3256,7 +3257,7 @@ msgstr ""
 #: ckan/templates/group/snippets/history_revisions.html:10
 #: ckan/templates/package/snippets/history_revisions.html:10
 msgid "Compare"
-msgstr ""
+msgstr "Bandingkan"
 
 #: ckan/templates/group/snippets/info.html:16
 #: ckan/templates/organization/bulk_process.html:72
@@ -3265,7 +3266,7 @@ msgstr ""
 #: ckan/templates/snippets/organization.html:37
 #: ckan/templates/snippets/package_item.html:42
 msgid "Deleted"
-msgstr ""
+msgstr "Dihapus"
 
 #: ckan/templates/group/snippets/info.html:24
 #: ckan/templates/package/snippets/package_context.html:7
@@ -3334,7 +3335,7 @@ msgstr ""
 
 #: ckan/templates/home/snippets/promoted.html:8
 msgid "Welcome to CKAN"
-msgstr ""
+msgstr "Selamat datang di CKAN"
 
 #: ckan/templates/home/snippets/promoted.html:10
 msgid ""
@@ -3348,23 +3349,23 @@ msgstr ""
 
 #: ckan/templates/home/snippets/search.html:2
 msgid "E.g. environment"
-msgstr ""
+msgstr "contoh: lingkungan"
 
 #: ckan/templates/home/snippets/search.html:6
 msgid "Search data"
-msgstr ""
+msgstr "Cari data"
 
 #: ckan/templates/home/snippets/search.html:8
 msgid "Search datasets"
-msgstr ""
+msgstr "Cari Dataset"
 
 #: ckan/templates/home/snippets/search.html:16
 msgid "Popular tags"
-msgstr ""
+msgstr "Tag populer"
 
 #: ckan/templates/home/snippets/stats.html:5
 msgid "{0} statistics"
-msgstr ""
+msgstr "{0} statistik"
 
 #: ckan/templates/home/snippets/stats.html:11
 msgid "dataset"
@@ -3372,15 +3373,15 @@ msgstr ""
 
 #: ckan/templates/home/snippets/stats.html:11
 msgid "datasets"
-msgstr "kumpulan data"
+msgstr "dataset"
 
 #: ckan/templates/home/snippets/stats.html:17
 msgid "organizations"
-msgstr ""
+msgstr "organisasi"
 
 #: ckan/templates/home/snippets/stats.html:23
 msgid "groups"
-msgstr ""
+msgstr "grup"
 
 #: ckan/templates/macros/form.html:126
 #, python-format
@@ -3416,7 +3417,7 @@ msgstr "URL gambar"
 
 #: ckan/templates/macros/form.html:438
 msgid "Clear Upload"
-msgstr ""
+msgstr "Kosongkan Unggahan"
 
 #: ckan/templates/organization/base_form_page.html:5
 msgid "Organization Form"
@@ -3425,11 +3426,11 @@ msgstr ""
 #: ckan/templates/organization/bulk_process.html:3
 #: ckan/templates/organization/bulk_process.html:11
 msgid "Edit datasets"
-msgstr ""
+msgstr "Edit dataset"
 
 #: ckan/templates/organization/bulk_process.html:16
 msgid " found for \"{query}\""
-msgstr ""
+msgstr " ditemukan untuk \"{query}\""
 
 #: ckan/templates/organization/bulk_process.html:18
 msgid "Sorry no datasets found for \"{query}\""
@@ -3464,7 +3465,7 @@ msgstr ""
 
 #: ckan/templates/organization/confirm_delete.html:11
 msgid "Are you sure you want to delete organization - {name}?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus organisasi - {name}?"
 
 #: ckan/templates/organization/edit.html:6
 #: ckan/templates/organization/snippets/info.html:13
@@ -3483,7 +3484,7 @@ msgstr "Cari organisasi..."
 
 #: ckan/templates/organization/index.html:29
 msgid "There are currently no organizations for this site"
-msgstr ""
+msgstr "Saat ini tidak terdapat organisasi untuk situs ini"
 
 #: ckan/templates/organization/member_new.html:31
 #: ckan/templates/user/edit_user_form.html:8
@@ -3494,15 +3495,15 @@ msgstr ""
 #: ckan/templates/user/request_reset.html:16
 #: ckan/templates/user/snippets/login_form.html:20
 msgid "Username"
-msgstr "Username"
+msgstr ""
 
 #: ckan/templates/organization/member_new.html:49
 msgid "Email address"
-msgstr ""
+msgstr "Alamat email"
 
 #: ckan/templates/organization/member_new.html:59
 msgid "Update Member"
-msgstr ""
+msgstr "Perbarui Anggota"
 
 #: ckan/templates/organization/member_new.html:79
 msgid ""
@@ -3516,26 +3517,26 @@ msgstr ""
 #: ckan/templates/organization/members.html:14
 msgid "{count} member"
 msgid_plural "{count} members"
-msgstr[0] ""
+msgstr[0] "{count} anggota"
 
 #: ckan/templates/organization/new.html:3
 #: ckan/templates/organization/new.html:5
 #: ckan/templates/organization/new.html:7
 #: ckan/templates/organization/new.html:12
 msgid "Create an Organization"
-msgstr ""
+msgstr "Buat sebuah Organisasi"
 
 #: ckan/templates/organization/new_organization_form.html:17
 msgid "Update Organization"
-msgstr ""
+msgstr "Perbarui Organisasi"
 
 #: ckan/templates/organization/new_organization_form.html:19
 msgid "Create Organization"
-msgstr ""
+msgstr "Buat Organisasi"
 
 #: ckan/templates/organization/snippets/feeds.html:3
 msgid "Datasets in organization: {group}"
-msgstr ""
+msgstr "Dataset dalam organisasi: {group}"
 
 #: ckan/templates/organization/snippets/help.html:4
 #: ckan/templates/organization/snippets/helper.html:4
@@ -3561,11 +3562,11 @@ msgstr ""
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"
-msgstr ""
+msgstr "Organisasi Saya"
 
 #: ckan/templates/organization/snippets/organization_form.html:18
 msgid "my-organization"
-msgstr ""
+msgstr "organisasi-saya"
 
 #: ckan/templates/organization/snippets/organization_form.html:20
 msgid "A little information about my organization..."
@@ -3590,7 +3591,7 @@ msgstr "Lihat {organization_name}"
 #: ckan/templates/package/base.html:22 ckan/templates/package/new.html:9
 #: ckan/templates/package/snippets/new_package_breadcrumb.html:2
 msgid "Create Dataset"
-msgstr ""
+msgstr "Buat Dataset"
 
 #: ckan/templates/package/base_form_page.html:22
 msgid "What are datasets?"
@@ -3605,15 +3606,15 @@ msgstr ""
 
 #: ckan/templates/package/confirm_delete.html:12
 msgid "Are you sure you want to delete dataset - {name}?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus dataset - {name}?"
 
 #: ckan/templates/package/confirm_delete_resource.html:11
 msgid "Are you sure you want to delete resource - {name}?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus sumberdaya - {name}?"
 
 #: ckan/templates/package/edit_base.html:16
 msgid "View dataset"
-msgstr ""
+msgstr "Lihat dataset"
 
 #: ckan/templates/package/edit_base.html:20
 msgid "Edit metadata"
@@ -3634,41 +3635,41 @@ msgstr "Pratayang"
 
 #: ckan/templates/package/edit_view.html:21
 msgid "Update"
-msgstr ""
+msgstr "Perbarui"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Associate this group with this dataset"
-msgstr ""
+msgstr "Asosiasikan grup ini dengan dataset ini"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Add to group"
-msgstr ""
+msgstr "Tambah ke grup"
 
 #: ckan/templates/package/group_list.html:23
 msgid "There are no groups associated with this dataset"
-msgstr ""
+msgstr "Tidak ada grup yang berkaitan dengan dataset ini"
 
 #: ckan/templates/package/new_package_form.html:15
 msgid "Update Dataset"
-msgstr ""
+msgstr "Perbarui Dataset"
 
 #: ckan/templates/package/new_resource.html:5
 msgid "Add data to the dataset"
-msgstr ""
+msgstr "Tambah data ke dataset"
 
 #: ckan/templates/package/new_resource.html:11
 #: ckan/templates/package/new_resource_not_draft.html:8
 msgid "Add New Resource"
-msgstr ""
+msgstr "Tambah Sumberdaya Baru"
 
 #: ckan/templates/package/new_resource_not_draft.html:3
 #: ckan/templates/package/new_resource_not_draft.html:4
 msgid "Add resource"
-msgstr ""
+msgstr "Tambah Sumberdaya"
 
 #: ckan/templates/package/new_resource_not_draft.html:16
 msgid "New resource"
-msgstr ""
+msgstr "Sumberdaya baru"
 
 #: ckan/templates/package/new_view.html:3
 #: ckan/templates/package/new_view.html:4
@@ -3701,16 +3702,16 @@ msgstr ""
 
 #: ckan/templates/package/resource_edit_base.html:17
 msgid "All resources"
-msgstr ""
+msgstr "Semua sumberdaya"
 
 #: ckan/templates/package/resource_edit_base.html:19
 msgid "View resource"
-msgstr ""
+msgstr "Lihat sumberdaya"
 
 #: ckan/templates/package/resource_edit_base.html:24
 #: ckan/templates/package/resource_edit_base.html:30
 msgid "Edit resource"
-msgstr ""
+msgstr "Edit sumberdaya"
 
 #: ckan/templates/package/resource_edit_base.html:26
 msgid "Views"
@@ -3790,7 +3791,7 @@ msgstr "Nilai"
 
 #: ckan/templates/package/resource_read.html:172
 msgid "Data last updated"
-msgstr ""
+msgstr "Data terakhir diperbarui"
 
 #: ckan/templates/package/resource_read.html:173
 #: ckan/templates/package/resource_read.html:177
@@ -3881,7 +3882,7 @@ msgstr ""
 #: ckan/templates/package/snippets/additional_info.html:2
 #: ckan/templates/snippets/additional_info.html:7
 msgid "Additional Info"
-msgstr ""
+msgstr "Informasi Tambahan"
 
 #: ckan/templates/package/snippets/additional_info.html:14
 #: ckan/templates/package/snippets/package_metadata_fields.html:6
@@ -3907,11 +3908,11 @@ msgstr "Kondisi"
 
 #: ckan/templates/package/snippets/additional_info.html:62
 msgid "Last Updated"
-msgstr ""
+msgstr "Terakhir Diperbarui"
 
 #: ckan/templates/package/snippets/cannot_create_package.html:10
 msgid "Before you can create a dataset you need to create an organization."
-msgstr ""
+msgstr "Sebelum dapat membuat dataset Anda harus membuat sebuah organisasi dahulu."
 
 #: ckan/templates/package/snippets/cannot_create_package.html:13
 msgid "Create a new organization"
@@ -3919,13 +3920,15 @@ msgstr "Buat organisasi baru"
 
 #: ckan/templates/package/snippets/cannot_create_package.html:18
 msgid "There are no organizations to which you can assign this dataset."
-msgstr ""
+msgstr "TIdak terdapat organisasi yang dapat ditetapkan untuk dataset ini."
 
 #: ckan/templates/package/snippets/cannot_create_package.html:19
 msgid ""
 "Ask a system administrator to create an organization before you can "
 "continue."
 msgstr ""
+"Minta kepada administrator sistem untuk membuat sebuah organisasi sebelum Anda "
+"dapat melanjutkan."
 
 #: ckan/templates/package/snippets/package_basic_fields.html:4
 #: ckan/templates/package/snippets/view_form.html:8
@@ -3934,25 +3937,27 @@ msgstr "Judul"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:4
 msgid "eg. A descriptive title"
-msgstr ""
+msgstr "contoh: judul yang deskriptif"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:13
 msgid "eg. my-dataset"
-msgstr ""
+msgstr "contoh: dataset-saya"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:19
 msgid "eg. Some useful notes about the data"
-msgstr ""
+msgstr "contoh: beberapa catatan tentang data tersebut"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:24
 msgid "eg. economy, mental health, government"
-msgstr ""
+msgstr "contoh: ekonomi, kesehatan mental, pemerintahan"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:45
 msgid ""
 " License definitions and additional information can be found at <a "
 "href=\"http://opendefinition.org/licenses/\">opendefinition.org</a> "
 msgstr ""
+" Definisi lisensi dan informasi tambahan dapat ditemukan di <a "
+"href=\"http://opendefinition.org/licenses/\">opendefinition.org</a> "
 
 #: ckan/templates/package/snippets/package_basic_fields.html:76
 #: ckan/templates/snippets/organization.html:23
@@ -3961,11 +3966,11 @@ msgstr "Organisasi"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:80
 msgid "No organization"
-msgstr ""
+msgstr "Tidak ada organisasi"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:95
 msgid "Visibility"
-msgstr ""
+msgstr "Visibilitas"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:98
 msgid "Public"
@@ -3973,7 +3978,7 @@ msgstr "Publik"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:117
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
 #: ckan/templates/package/snippets/package_form.html:28
 msgid ""
@@ -3987,11 +3992,11 @@ msgstr ""
 
 #: ckan/templates/package/snippets/package_form.html:39
 msgid "Are you sure you want to delete this dataset?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus dataset ini?"
 
 #: ckan/templates/package/snippets/package_form.html:43
 msgid "Next: Add Data"
-msgstr ""
+msgstr "Selanjutnya: Tambahkan Data"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:6
 msgid "http://example.com/dataset.json"
@@ -4009,7 +4014,7 @@ msgstr ""
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:16
 msgid "Author Email"
-msgstr ""
+msgstr "Email Pembuat"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:16
 #: ckan/templates/package/snippets/package_metadata_fields.html:22
@@ -4019,11 +4024,11 @@ msgstr ""
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:22
 msgid "Maintainer Email"
-msgstr ""
+msgstr "Email Pemelihara"
 
 #: ckan/templates/package/snippets/resource_edit_form.html:12
 msgid "Update Resource"
-msgstr ""
+msgstr "Perbarui Sumberdaya"
 
 #: ckan/templates/package/snippets/resource_form.html:26
 msgid "Data"
@@ -4039,7 +4044,7 @@ msgstr ""
 
 #: ckan/templates/package/snippets/resource_form.html:34
 msgid "Some useful notes about the data"
-msgstr ""
+msgstr "Beberapa catatan tentang data tersebut"
 
 #: ckan/templates/package/snippets/resource_form.html:39
 msgid "eg. CSV, XML or JSON"
@@ -4073,19 +4078,19 @@ msgstr ""
 
 #: ckan/templates/package/snippets/resource_form.html:67
 msgid "Are you sure you want to delete this resource?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus sumberdaya ini?"
 
 #: ckan/templates/package/snippets/resource_form.html:73
 msgid "Previous"
-msgstr ""
+msgstr "Sebelumnya"
 
 #: ckan/templates/package/snippets/resource_form.html:76
 msgid "Save & add another"
-msgstr ""
+msgstr "Simpan & tambah lagi"
 
 #: ckan/templates/package/snippets/resource_form.html:79
 msgid "Finish"
-msgstr ""
+msgstr "Selesai"
 
 #: ckan/templates/package/snippets/resource_help.html:2
 msgid "What's a resource?"
@@ -4101,7 +4106,7 @@ msgstr ""
 
 #: ckan/templates/package/snippets/resource_item.html:35
 msgid "More information"
-msgstr ""
+msgstr "Informasi lebih lengkap"
 
 #: ckan/templates/package/snippets/resource_view.html:10
 msgid "Fullscreen"
@@ -4127,11 +4132,11 @@ msgstr ""
 
 #: ckan/templates/package/snippets/resource_view.html:80
 msgid "Width"
-msgstr ""
+msgstr "Lebar"
 
 #: ckan/templates/package/snippets/resource_view.html:83
 msgid "Height"
-msgstr ""
+msgstr "Tinggi"
 
 #: ckan/templates/package/snippets/resource_view.html:86
 msgid "Code"
@@ -4139,31 +4144,31 @@ msgstr "Kode"
 
 #: ckan/templates/package/snippets/resource_views_list.html:8
 msgid "Resource Preview"
-msgstr ""
+msgstr "Pratayang Sumberdaya"
 
 #: ckan/templates/package/snippets/resources_list.html:13
 msgid "Data and Resources"
-msgstr ""
+msgstr "Data dan Sumberdaya"
 
 #: ckan/templates/package/snippets/resources_list.html:30
 msgid "This dataset has no data"
-msgstr ""
+msgstr "Dataset ini tidak memiliki data"
 
 #: ckan/templates/package/snippets/revisions_table.html:24
 #, python-format
 msgid "Read dataset as of %s"
-msgstr "Baca kumpulan data sebagai %s"
+msgstr "Baca dataset sebagai %s"
 
 #: ckan/templates/package/snippets/stages.html:23
 #: ckan/templates/package/snippets/stages.html:25
 msgid "Create dataset"
-msgstr ""
+msgstr "Buat dataset"
 
 #: ckan/templates/package/snippets/stages.html:30
 #: ckan/templates/package/snippets/stages.html:34
 #: ckan/templates/package/snippets/stages.html:36
 msgid "Add data"
-msgstr ""
+msgstr "Tambah data"
 
 #: ckan/templates/package/snippets/view_form.html:8
 msgid "eg. My View"
@@ -4175,7 +4180,7 @@ msgstr ""
 
 #: ckan/templates/package/snippets/view_form_filters.html:28
 msgid "Remove Filter"
-msgstr ""
+msgstr "Hapus Filter"
 
 #: ckan/templates/package/snippets/view_help.html:2
 msgid "What's a view?"
@@ -4187,12 +4192,12 @@ msgstr ""
 
 #: ckan/templates/revision/diff.html:6
 msgid "Differences"
-msgstr ""
+msgstr "Perbedaan"
 
 #: ckan/templates/revision/diff.html:13 ckan/templates/revision/diff.html:18
 #: ckan/templates/revision/diff.html:23
 msgid "Revision Differences"
-msgstr ""
+msgstr "Perbedaan Antara Revisi"
 
 #: ckan/templates/revision/diff.html:44
 msgid "Difference"
@@ -4221,7 +4226,7 @@ msgstr "Perubahan"
 
 #: ckan/templates/revision/read.html:74
 msgid "Datasets' Tags"
-msgstr "Tag Kumpulan data"
+msgstr "Tag Dataset"
 
 #: ckan/templates/revision/snippets/revisions_list.html:7
 msgid "Entity"
@@ -4233,27 +4238,27 @@ msgstr ""
 
 #: ckan/templates/snippets/add_dataset.html:6
 msgid "Add Dataset"
-msgstr "Tambah Kumpulan data"
+msgstr "Tambah Dataset"
 
 #: ckan/templates/snippets/datapusher_status.html:8
 msgid "Datapusher status: {status}."
-msgstr ""
+msgstr "Status Datapusher: {status}."
 
 #: ckan/templates/snippets/disqus_trackback.html:2
 msgid "Trackback URL"
-msgstr ""
+msgstr "URL Trackback"
 
 #: ckan/templates/snippets/facet_list.html:82
 msgid "Show More {facet_type}"
-msgstr ""
+msgstr "Tampilkan Lebih {facet_type}"
 
 #: ckan/templates/snippets/facet_list.html:85
 msgid "Show Only Popular {facet_type}"
-msgstr ""
+msgstr "Hanya Tampilkan {facet_type} Populer"
 
 #: ckan/templates/snippets/facet_list.html:89
 msgid "There are no {facet_type} that match this search"
-msgstr ""
+msgstr "Tidak ada {facet_type} yang cocok dengan pencarian ini"
 
 #: ckan/templates/snippets/home_breadcrumb_item.html:2
 msgid "Home"
@@ -4268,15 +4273,15 @@ msgstr "Bahasa"
 #: ckan/templates/snippets/simple_search.html:15
 #: ckan/templates/snippets/sort_by.html:22
 msgid "Go"
-msgstr ""
+msgstr "Mulai"
 
 #: ckan/templates/snippets/license.html:14
 msgid "No License Provided"
-msgstr ""
+msgstr "Lisensi Tidak Disediakan"
 
 #: ckan/templates/snippets/license.html:28
 msgid "This dataset satisfies the Open Definition."
-msgstr "Kumpulan data ini memenuhi kriteria Definisi Terbuka."
+msgstr "Dataset ini memenuhi kriteria Open Definition."
 
 #: ckan/templates/snippets/organization.html:48
 msgid "There is no description for this organization"
@@ -4284,89 +4289,91 @@ msgstr "Tidak ada deskripsi untuk organisasi ini"
 
 #: ckan/templates/snippets/package_item.html:57
 msgid "This dataset has no description"
-msgstr ""
+msgstr "Dataset ini tidak memiliki deskripsi"
 
 #: ckan/templates/snippets/search_form.html:33
 #: ckan/templates/snippets/simple_search.html:8
 #: ckan/templates/snippets/sort_by.html:12
 msgid "Order by"
-msgstr ""
+msgstr "Urutkan menurut"
 
 #: ckan/templates/snippets/search_form.html:74
 msgid "Filter Results"
-msgstr ""
+msgstr "Hasil Filter"
 
 #: ckan/templates/snippets/search_form.html:81
 msgid " <p class=\"extra\">Please try another search.</p> "
-msgstr ""
+msgstr " <p class=\"extra\">Silakan mencoba pencarian lain.</p> "
 
 #: ckan/templates/snippets/search_form.html:87
 msgid ""
 " <p id=\"search-error\"><strong>There was an error while "
 "searching.</strong> Please try again.</p> "
 msgstr ""
+" <p id=\"search-error\"><strong>Terjadi kesalahan saat "
+"melakukan pencarian.</strong> Silakan mencoba lagi.</p> "
 
 #: ckan/templates/snippets/search_result_text.html:15
 msgid "{number} dataset found for \"{query}\""
 msgid_plural "{number} datasets found for \"{query}\""
-msgstr[0] ""
+msgstr[0] "{number} dataset ditemukan untuk \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:16
 msgid "No datasets found for \"{query}\""
-msgstr ""
+msgstr "Tidak ditemukan dataset untuk \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:17
 msgid "{number} dataset found"
 msgid_plural "{number} datasets found"
-msgstr[0] ""
+msgstr[0] "{number} dataset ditemukan"
 
 #: ckan/templates/snippets/search_result_text.html:18
 msgid "No datasets found"
-msgstr ""
+msgstr "Tidak ditemukan dataset"
 
 #: ckan/templates/snippets/search_result_text.html:21
 msgid "{number} group found for \"{query}\""
 msgid_plural "{number} groups found for \"{query}\""
-msgstr[0] ""
+msgstr[0] "{number} grup ditemukan untuk \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:22
 msgid "No groups found for \"{query}\""
-msgstr ""
+msgstr "Tidak ditemukan grup untuk \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:23
 msgid "{number} group found"
 msgid_plural "{number} groups found"
-msgstr[0] ""
+msgstr[0] "{number} grup ditemukan"
 
 #: ckan/templates/snippets/search_result_text.html:24
 msgid "No groups found"
-msgstr ""
+msgstr "Tidak ditemukan grup"
 
 #: ckan/templates/snippets/search_result_text.html:27
 msgid "{number} organization found for \"{query}\""
 msgid_plural "{number} organizations found for \"{query}\""
-msgstr[0] ""
+msgstr[0] "{number} organisasi ditemukan untuk \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:28
 msgid "No organizations found for \"{query}\""
-msgstr ""
+msgstr "Tidak ditemukan organisasi untuk \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:29
 msgid "{number} organization found"
 msgid_plural "{number} organizations found"
-msgstr[0] ""
+msgstr[0] "{number} organisasi ditemukan"
 
 #: ckan/templates/snippets/search_result_text.html:30
 msgid "No organizations found"
-msgstr ""
+msgstr "Tidak ditemukan organisasi"
 
 #: ckan/templates/snippets/social.html:5
 msgid "Social"
-msgstr ""
+msgstr "Sosial"
 
 #: ckan/templates/snippets/subscribe.html:2
 msgid "Subscribe"
-msgstr ""
+msgstr "Berlangganan"
 
 #: ckan/templates/snippets/subscribe.html:4
 #: ckan/templates/user/edit_user_form.html:12
@@ -4386,7 +4393,7 @@ msgstr "Edit"
 
 #: ckan/templates/tag/index.html:33 ckan/templates/tag/index.html:34
 msgid "Search Tags"
-msgstr ""
+msgstr "Pencarian Tag"
 
 #: ckan/templates/user/dashboard.html:19 ckan/templates/user/dashboard.html:37
 msgid "News feed"
@@ -4395,41 +4402,41 @@ msgstr ""
 #: ckan/templates/user/dashboard.html:20
 #: ckan/templates/user/dashboard_datasets.html:12
 msgid "My Datasets"
-msgstr ""
+msgstr "Dataset Saya"
 
 #: ckan/templates/user/dashboard.html:21
 #: ckan/templates/user/dashboard_organizations.html:12
 msgid "My Organizations"
-msgstr ""
+msgstr "Organisasi Saya"
 
 #: ckan/templates/user/dashboard.html:22
 #: ckan/templates/user/dashboard_groups.html:12
 msgid "My Groups"
-msgstr ""
+msgstr "Grup Saya"
 
 #: ckan/templates/user/dashboard.html:39
 msgid "Activity from items that I'm following"
-msgstr ""
+msgstr "Aktivitas terkait hal-hal yang saya ikuti"
 
 #: ckan/templates/user/dashboard_datasets.html:17
 #: ckan/templates/user/read.html:20
 msgid "You haven't created any datasets."
-msgstr ""
+msgstr "Anda belum pernah menambahkan dataset."
 
 #: ckan/templates/user/dashboard_datasets.html:19
 #: ckan/templates/user/dashboard_groups.html:22
 #: ckan/templates/user/dashboard_organizations.html:23
 #: ckan/templates/user/read.html:22
 msgid "Create one now?"
-msgstr ""
+msgstr "Tambahkan sekarang?"
 
 #: ckan/templates/user/dashboard_groups.html:20
 msgid "You are not a member of any groups."
-msgstr ""
+msgstr "Anda bukan anggota dari grup manapun."
 
 #: ckan/templates/user/dashboard_organizations.html:21
 msgid "You are not a member of any organizations."
-msgstr ""
+msgstr "Anda bukan anggota dari organisasi manapun."
 
 #: ckan/templates/user/edit.html:6 ckan/templates/user/edit_base.html:3
 #: ckan/templates/user/list.html:6 ckan/templates/user/list.html:13
@@ -4440,17 +4447,19 @@ msgstr "Pengguna"
 
 #: ckan/templates/user/edit.html:17
 msgid "Account Info"
-msgstr ""
+msgstr "Info Akun"
 
 #: ckan/templates/user/edit.html:19
 msgid ""
 " Your profile lets other CKAN users know about who you are and what you "
 "do. "
 msgstr ""
+" Profil Anda memungkinkan pengguna CKAN lain mengetahui siapa Anda dan apa yang Anda "
+"kerjakan. "
 
 #: ckan/templates/user/edit_user_form.html:7
 msgid "Change details"
-msgstr ""
+msgstr "Ganti detail"
 
 #: ckan/templates/user/edit_user_form.html:10
 msgid "Full name"
@@ -4458,27 +4467,27 @@ msgstr "Nama lengkap"
 
 #: ckan/templates/user/edit_user_form.html:10
 msgid "eg. Joe Bloggs"
-msgstr ""
+msgstr "contoh: Joe Bloggs"
 
 #: ckan/templates/user/edit_user_form.html:12
 msgid "eg. joe@example.com"
-msgstr ""
+msgstr "contoh: joe@example.com"
 
 #: ckan/templates/user/edit_user_form.html:14
 msgid "A little information about yourself"
-msgstr ""
+msgstr "Informasi yang menjelaskan tentang Anda"
 
 #: ckan/templates/user/edit_user_form.html:17
 msgid "Subscribe to notification emails"
-msgstr ""
+msgstr "Berlangganan notifikasi melalui email"
 
 #: ckan/templates/user/edit_user_form.html:26
 msgid "Change password"
-msgstr ""
+msgstr "Ganti sandi"
 
 #: ckan/templates/user/edit_user_form.html:29
 msgid "Sysadmin Password"
-msgstr ""
+msgstr "Sandi Sysadmin"
 
 #: ckan/templates/user/edit_user_form.html:37
 #: ckan/templates/user/logout_first.html:11
@@ -4486,32 +4495,32 @@ msgstr ""
 #: ckan/templates/user/perform_reset.html:25
 #: ckan/templates/user/snippets/login_form.html:22
 msgid "Password"
-msgstr "Password"
+msgstr "Sandi"
 
 #: ckan/templates/user/edit_user_form.html:39
 msgid "Confirm Password"
-msgstr ""
+msgstr "Konfirmasikan Sandi"
 
 #: ckan/templates/user/edit_user_form.html:45
 msgid "Are you sure you want to delete this User?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin menghapus Pengguna ini?"
 
 #: ckan/templates/user/edit_user_form.html:50
 msgid "Are you sure you want to regenerate the API key?"
-msgstr ""
+msgstr "Apakah Anda yakin ingin memperbarui API key?"
 
 #: ckan/templates/user/edit_user_form.html:50
 msgid "Regenerate API Key"
-msgstr ""
+msgstr "Perbarui API Key"
 
 #: ckan/templates/user/edit_user_form.html:54
 msgid "Update Profile"
-msgstr ""
+msgstr "Perbarui Profil"
 
 #: ckan/templates/user/list.html:3
 #: ckan/templates/user/snippets/user_search.html:11
 msgid "All Users"
-msgstr ""
+msgstr "Semua Pengguna"
 
 #: ckan/templates/user/login.html:3 ckan/templates/user/login.html:6
 #: ckan/templates/user/login.html:12
@@ -4521,60 +4530,60 @@ msgstr "Masuk"
 
 #: ckan/templates/user/login.html:25
 msgid "Need an Account?"
-msgstr ""
+msgstr "Perlu Akun?"
 
 #: ckan/templates/user/login.html:27
 msgid "Then sign right up, it only takes a minute."
-msgstr ""
+msgstr "Langsung daftar, hanya diperlukan satu menit."
 
 #: ckan/templates/user/login.html:30
 msgid "Create an Account"
-msgstr ""
+msgstr "Buat Akun"
 
 #: ckan/templates/user/login.html:42
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "Lupa password Anda?"
 
 #: ckan/templates/user/login.html:44
 msgid "No problem, use our password recovery form to reset it."
-msgstr ""
+msgstr "Tidak masalah, gunakan form pemulihan sandi untuk menyetel ulang sandi."
 
 #: ckan/templates/user/login.html:47
 msgid "Forgot your password?"
-msgstr "Lupa password anda?"
+msgstr "Lupa Sandi Anda?"
 
 #: ckan/templates/user/logout.html:3 ckan/templates/user/logout.html:9
 msgid "Logged Out"
-msgstr ""
+msgstr "Terlogout"
 
 #: ckan/templates/user/logout.html:11
 msgid "You are now logged out."
-msgstr ""
+msgstr "Anda sudah terlogout."
 
 #: ckan/templates/user/logout_first.html:9
 msgid "You're already logged in as {user}."
-msgstr ""
+msgstr "Anda terlogin sebagai {user}."
 
 #: ckan/templates/user/logout_first.html:9
 msgid "Logout"
-msgstr "Keluar"
+msgstr ""
 
 #: ckan/templates/user/logout_first.html:12
 #: ckan/templates/user/snippets/login_form.html:24
 msgid "Remember me"
-msgstr ""
+msgstr "Ingat saya"
 
 #: ckan/templates/user/logout_first.html:20
 msgid "You're already logged in"
-msgstr ""
+msgstr "Anda sudah terlogin"
 
 #: ckan/templates/user/logout_first.html:22
 msgid "You need to log out before you can log in with another account."
-msgstr ""
+msgstr "Anda harus log out sebelum dapat log in dengan akun lain."
 
 #: ckan/templates/user/logout_first.html:23
 msgid "Log out now"
-msgstr ""
+msgstr "Log out sekarang"
 
 #: ckan/templates/user/new.html:6
 msgid "Registration"
@@ -4582,44 +4591,44 @@ msgstr "Pendaftaran"
 
 #: ckan/templates/user/new.html:14
 msgid "Register for an Account"
-msgstr "Daftar untuk Akun baru"
+msgstr "Mendaftar untuk Akun"
 
 #: ckan/templates/user/new.html:26
 msgid "Why Sign Up?"
-msgstr ""
+msgstr "Mengapa Mendaftar?"
 
 #: ckan/templates/user/new.html:28
 msgid "Create datasets, groups and other exciting things"
-msgstr "Buat kumpulan data, grup dan hal menarik lainnya"
+msgstr "Buat dataset, grup dan hal menarik lainnya"
 
 #: ckan/templates/user/new_user_form.html:5
 msgid "username"
-msgstr "Nama pengguna"
+msgstr ""
 
 #: ckan/templates/user/new_user_form.html:6
 msgid "Full Name"
-msgstr "Nama lengkap"
+msgstr "Nama Lengkap"
 
 #: ckan/templates/user/new_user_form.html:19
 msgid "Create Account"
-msgstr "Buat akun"
+msgstr "Buat Akun"
 
 #: ckan/templates/user/perform_reset.html:4
 #: ckan/templates/user/perform_reset.html:14
 msgid "Reset Your Password"
-msgstr "Setel ulang sandi anda"
+msgstr "Setel ulang sandi Anda"
 
 #: ckan/templates/user/perform_reset.html:7
 msgid "Password Reset"
-msgstr "Setel ulang sandi"
+msgstr "Setel Ulang Sandi"
 
 #: ckan/templates/user/perform_reset.html:21
 msgid "You can also change username. It can not be modified later."
-msgstr ""
+msgstr "Anda juga dapat mengganti username. Namun username tidak dapat diganti di kemudian hari."
 
 #: ckan/templates/user/perform_reset.html:29
 msgid "Update Password"
-msgstr "Perbaharui sandi"
+msgstr "Perbarui Sandi"
 
 #: ckan/templates/user/perform_reset.html:43
 #: ckan/templates/user/request_reset.html:32
@@ -4628,19 +4637,19 @@ msgstr "Bagaimana ini bekerja?"
 
 #: ckan/templates/user/perform_reset.html:45
 msgid "Simply enter a new password and we'll update your account"
-msgstr ""
+msgstr "Isilah sandi baru dan kami akan memperbarui akun Anda"
 
 #: ckan/templates/user/read.html:27
 msgid "User hasn't created any datasets."
-msgstr "Pengguna belum sama sekali membuat kumpulan data"
+msgstr "Pengguna belum pernah membuat dataset."
 
 #: ckan/templates/user/read_base.html:39
 msgid "You have not provided a biography."
-msgstr "Anda belum mengisi biografi"
+msgstr "Anda belum mengisi biografi."
 
 #: ckan/templates/user/read_base.html:41
 msgid "This user has no biography."
-msgstr "Pengguna ini tidak memiliki biografi"
+msgstr "Pengguna ini tidak memiliki biografi."
 
 #: ckan/templates/user/read_base.html:73
 msgid "Open ID"
@@ -4648,20 +4657,20 @@ msgstr "Open ID"
 
 #: ckan/templates/user/read_base.html:82 ckan/templates/user/read_base.html:96
 msgid "This means only you can see this"
-msgstr "Ini artinya hanya anda yang dapat melihat ini"
+msgstr "Ini berarti hanya Anda yang dapat melihat ini"
 
 #: ckan/templates/user/read_base.html:87
 msgid "Member Since"
-msgstr "Anggota sejak"
+msgstr "Anggota Sejak"
 
 #: ckan/templates/user/read_base.html:96
 msgid "API Key"
-msgstr "Kunci API"
+msgstr ""
 
 #: ckan/templates/user/request_reset.html:3
 #: ckan/templates/user/request_reset.html:13
 msgid "Reset your password"
-msgstr "Setel ulang password anda"
+msgstr "Setel ulang sandi Anda"
 
 #: ckan/templates/user/request_reset.html:6
 msgid "Password reset"
@@ -4676,17 +4685,17 @@ msgid ""
 "Enter your username into the box and we will send you an email with a "
 "link to enter a new password."
 msgstr ""
-"Masukan nama pengguna ke dalam kolom dan kami akan mengirimkan surat "
+"Masukkan username Anda ke dalam kolom dan kami akan mengirimkan surat "
 "elektronik beserta tautan untuk mengisi sandi baru"
 
 #: ckan/templates/user/snippets/followee_dropdown.html:15
 #: ckan/templates/user/snippets/followee_dropdown.html:16
 msgid "Activity from:"
-msgstr ""
+msgstr "Aktivitas dari:"
 
 #: ckan/templates/user/snippets/followee_dropdown.html:23
 msgid "Search list..."
-msgstr ""
+msgstr "Cari dalam daftar..."
 
 #: ckan/templates/user/snippets/followee_dropdown.html:44
 msgid "You are not following anything"
@@ -4702,5 +4711,5 @@ msgstr "Cari Pengguna"
 
 #: ckan/views/user.py:588
 msgid "Your password must be 8 characters or longer."
-msgstr ""
+msgstr "Sandi Anda harus 8 karakter atau lebih."
 
